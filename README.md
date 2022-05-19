@@ -1,5 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/remote-jinja.svg)](https://badge.fury.io/py/remote-jinja) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/remote-jinja.svg)
-![GitHub stars](https://img.shields.io/github/stars/akiva10b/remote-jinja.svg) ![PyPI - Downloads](https://img.shields.io/pypi/dm/remote-jinja.svg) ![GitHub issues](https://img.shields.io/github/issues/akiva10b/remote-jinja.svg)
+![GitHub stars](https://img.shields.io/github/stars/akiva10b/remote-jinja.svg) ![GitHub issues](https://img.shields.io/github/issues/akiva10b/remote-jinja.svg)
 
 ## Description
 
