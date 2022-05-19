@@ -105,7 +105,7 @@ class RemoteTemplate():
         variable_end_string=']}'
         refresh_template=request.args.get("refresh") # Refresh if URL contains param "refresh"
         """
-        html_text = self._load_page(url)
+        html_text = self._load_page(url, refresh_template)
         clean_html_text = self._clean_html(html_text)
         tm = Template(
             clean_html_text,

@@ -10,13 +10,9 @@ requirements_path = here / "requirements.txt"
 with readme_path.open() as f:
     README = f.read()
 
-with requirements_path.open() as f:
-    requirements = [line for line in f.readlines()]
-
-
 setup(
     name='remote-jinja',
-    version='0.1.3',
+    version='0.1.6',
     description='Handles remote templates for ongoing projects with Jinja',
     long_description=README,
     long_description_content_type='text/markdown',
@@ -34,6 +30,8 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
     ],
-    install_requires=requirements,
+    install_requires=[
+        'Jinja2',
+    ],
     python_requires='>=3.5.3'
 )
