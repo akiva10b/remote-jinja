@@ -12,7 +12,7 @@ with readme_path.open() as f:
 
 setup(
     name='remote-jinja',
-    version='0.1.6',
+    version='0.1.61',
     description='Handles remote templates for ongoing projects with Jinja',
     long_description=README,
     long_description_content_type='text/markdown',
